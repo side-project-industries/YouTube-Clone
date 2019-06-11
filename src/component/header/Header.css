@@ -1,3 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 70px;
+}
+
 .logo {
     color: red;
+}
+
+.logo-font {
+    font-family: league gothic;
+    font-weight: bold;
+}
+
+.search {
+    height: 26px;
+    width: 500px;
+    font-size: 16px;
+}
+
+.search-button {
+    height: 32.5px;
+}
+
+.right-icons {
+    margin-right: 15px;
 }
