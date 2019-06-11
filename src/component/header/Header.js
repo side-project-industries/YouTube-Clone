@@ -5,8 +5,23 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <h1>Header</h1>
-        <i class="logo fab fa-youtube fa-3x" />
+        <div>
+          <i class="logo fab fa-youtube fa-2x" />
+          <p>YouTube</p>
+        </div>
+        <div>
+          <input placeholder="Search" />
+          <button>
+            <i class="fas fa-search" />
+          </button>
+        </div>
+        <div>
+          <i class="fas fa-video" />
+          <i class="fas fa-th" />
+          <i class="fas fa-share" />
+          <i class="fas fa-bell" />
+          <i class="fas fa-user-circle" />
+        </div>
       </div>
     );
   }
