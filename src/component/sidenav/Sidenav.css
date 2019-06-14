@@ -1,0 +1,21 @@
+.sidenav-container {
+  width: 200px;
+}
+
+.sidenav-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidenav-button {
+  padding-left: 5px;
+  padding-top: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.sidenav-button:hover {
+  background-color: gray;
+  cursor: pointer;
+}
